@@ -22,7 +22,6 @@
   "author": "sparklewhy@gmail.com",
   "license": "ISC",
   "dependencies": {
-    "bluebird": "^3.4.6",
     "hash-sum": "^1.0.2",
     "lru-cache": "^4.0.2",
     "object-assign": "^4.1.0",
