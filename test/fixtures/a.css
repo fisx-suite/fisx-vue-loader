@@ -1,0 +1,18 @@
+@import "./a/b.css";
+#app {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 60px;
+    background: url('./a/b.jpg?__inline')
+}
+
+h1 {
+    background: url(a/b2.png);
+}
+
+.img-set {
+    background-image: image-set( "test.png" 1x, "test-2x.png" 2x, "test-print.png" 600dpi );
+}
