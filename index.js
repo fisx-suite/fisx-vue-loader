@@ -23,5 +23,7 @@ module.exports = exports = {
         var parser = require('./lib/parser');
         var parts = vueCompilerCore.parse(filePath, content, parser);
         return vueCompilerCore.compile(parts, opts);
-    }
+    },
+    registerFisParser: vueCompilerCore.registerFisParser,
+    registerParser: vueCompilerCore.registerParser
 };
