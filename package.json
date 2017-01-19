@@ -1,6 +1,6 @@
 {
   "name": "fisx-vue-loader",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "The vue loader for fisx.",
   "main": "index.js",
   "keywords": [
